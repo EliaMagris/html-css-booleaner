@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+        /* CREAZIONE HEADER CON CENTRATURA LOGO */
+
 header{
     background-color: rgb(78, 160, 255);
     height: 13vh;
@@ -12,7 +14,8 @@ header{
     background-size: 50vh;
 }
 
-#centratura{
+
+#centratura-LOGO{
     width: 70%;
     margin: auto;
 }
@@ -21,6 +24,29 @@ header img{
    width: 25vh;
    margin-top: 5vh;
 }
+              /* IMMAGINI DI TIM */
+
+.tim-image1{
+     width: 49%;
+     display: inline-block;
+     background-image: url(../img/tim-1.jpg);
+     height: 540px;
+     background-size: cover;
+}
+
+.tim-image2{
+    width: 49%;
+    display: inline-block;
+    background-image: url(../img/tim-2.jpg);
+     height: 540px;
+     background-size: cover;
+}
+
+#image-subject{
+    font-size: 2vh;
+}
+      
+       /* INFORMAZIONI AUTORE SITO */
 
 #page-autor{
     color: blue;
@@ -36,9 +62,7 @@ header img{
     color:rgb(143,143,143) ;
 }
 
-#image-subject{
-    font-size: 2vh;
-}
+           /* INIZIO CREAZIONE MAIN */
 
 main{
     width: 70%;
@@ -49,15 +73,18 @@ main{
     margin-top: 2vh;
 }
 
-.lorem{
-   font-size: 2.5vh;
+.lorem-final{
+   font-size: 2vh;
    margin-top: 40px;
 }
 
 ul{
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 2.5vh;
 }
+
+         /* INIZIO TABELLA */
 
 table{
     border-spacing: 0;
@@ -67,7 +94,6 @@ table{
 
 .colonna-1{
     background-color: rgb(177, 229, 242);
-    padding: 20px;
 }
 
 .colonna-3{
@@ -84,6 +110,9 @@ td{
    line-height: 2vh;
    width: 5vh;
 }
+
+
+    /* INIZIO FOOTER */
 
 footer{
     width: 70%;
